@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="co.nanoapps.android">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".NanoappsListActivity" android:label="Addons">
+        </activity>
+        <service android:name=".NanoappsUpdaterService"></service>
+        <activity android:name=".NanoappActivity" android:label="Addons">
+        </activity>
+        <activity android:name=".PreNanoappActivity" android:label="Addons"
+            android:noHistory="true">
+        </activity>
+
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+    </application>
+
+</manifest>
